@@ -7,10 +7,6 @@
   pointer-events: none;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +23,7 @@ table {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -40,4 +37,9 @@ table {
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
